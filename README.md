@@ -8,6 +8,7 @@ local machine to another machine connected to the IP network. It was designed wi
 Lawrence-Berkeley National Laboratory.
 
 ## BEHAVIOUR
+```sh
 Usage:
 	ft_traceroute [ -4 ] [ -f first_ttl ] [ -m max_ttl ] [ -N squeries ] [ -p port ] [ -w waittime ] [ -q nqueries ] [ -z sendwait ] host [ packetlen ]
 	-4				Use IPv4
@@ -23,8 +24,9 @@ Usage:
 	-h				Read this help and exit.
 
 Arguments:
-+     host          The host to traceroute to
-      packetlen     The full packet length (default is the length of an IP header plus 40). Can be ignored or increased to a minimal allowed value.
+	host			The host to traceroute to
+	packetlen		The full packet length (default is the length of an IP header plus 40). Can be ignored or increased to a minimal allowed value.
+```
 
 ## AUTHOR(s)
 + gilles Bourgeois
