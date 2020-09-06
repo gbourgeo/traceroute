@@ -27,8 +27,8 @@ ft_traceroute [ -4 ] [ -f first_ttl ] [ -m max_ttl ] [ -N squeries ] [ -p port ]
 -z sendwait		Minimal time interval between probes (default 0). If the value is more than 10,
    				then it specifies a number in milliseconds, else it is a number of seconds
 				(float point values allowed too).
--U 				Use UDP to particular port for tracerouting (instead of increasing the port per
-				each probe), default port is 53.
+-U 				Use UDP to particular port for tracerouting (instead of increasing the port
+				per each probe), default port is 53.
 -h				Read this help and exit.
 
 Arguments:
