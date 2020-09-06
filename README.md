@@ -21,7 +21,7 @@ ft_traceroute [ -4 ] [ -f first_ttl ] [ -m max_ttl ] [ -N squeries ] [ -p port ]
 		seq for "icmp" (incremented as well, default from 1), or some constant
 		destination port for other methods (with default of 80 for "tcp", 53 for
 		"udp", etc.).
--w waittime		Set the number of seconds to wait for response to a probe (default is 5.0).
+-w waittime	Set the number of seconds to wait for response to a probe (default is 5.0).
    		Non-integer (float point) values allowed too.
 -q nqueries	Set the number of probes per each hop. Default is 3.
 -z sendwait	Minimal time interval between probes (default 0). If the value is more than 10,
@@ -33,9 +33,9 @@ ft_traceroute [ -4 ] [ -f first_ttl ] [ -m max_ttl ] [ -N squeries ] [ -p port ]
 
 Arguments:
 
-host			The host to traceroute to
-packetlen		The full packet length (default is the length of an IP header plus 40).
-				Can be ignored or increased to a minimal allowed value.
+host	The host to traceroute to
+packetlen	The full packet length (default is the length of an IP header plus 40).
+		Can be ignored or increased to a minimal allowed value.
 ```
 
 ## AUTHOR(s)
