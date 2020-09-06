@@ -11,8 +11,8 @@ Lawrence-Berkeley National Laboratory.
 
 ft_traceroute [ -4 ] [ -f first_ttl ] [ -m max_ttl ] [ -N squeries ] [ -p port ] [ -w waittime ] [ -q nqueries ] [ -z sendwait ] host [ packetlen ]
 ```c
--4				Use IPv4
--I				Use ICMP ECHO for tracerouting.
+-4		Use IPv4
+-I		Use ICMP ECHO for tracerouting.
 -f first_ttl	Start from the first_ttl hop (instead from 1).
 -m max_ttl		Set the max number of hops (max TTL to be rached). Default is 30.
 -N squeries		Set the number of probes to be tried simultaneously (default is 16).
