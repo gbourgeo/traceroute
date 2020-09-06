@@ -33,7 +33,7 @@ ft_traceroute [ -4 ] [ -f first_ttl ] [ -m max_ttl ] [ -N squeries ] [ -p port ]
 
 Arguments:
 
-host	The host to traceroute to
+host		The host to traceroute to
 packetlen	The full packet length (default is the length of an IP header plus 40).
 		Can be ignored or increased to a minimal allowed value.
 ```
